@@ -1,0 +1,57 @@
+/* Reset some default styles for consistency */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  background-color: #ff0000; /* Use hex for better control and readability */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff00; /* Bright yellow text for contrast */
+  line-height: 1.6;
+  padding: 20px; /* Add some padding for content spacing */
+}
+
+/* Logo styling */
+.logo {
+  width: 300px;
+  max-width: 100%; /* Responsive design for smaller screens */
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Center the logo horizontally with spacing */
+  border-radius: 10px; /* Optional: rounded edges for the logo */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+
+/* iframe styling */
+iframe {
+  border-radius: 20px;
+  border: none; /* Remove default border for cleaner look */
+  width: 100%; /* Make iframe responsive */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 800px; /* Limit maximum width if needed */
+  display: block;
+  margin: 20px auto; /* Center iframe with spacing */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Button styling */
+.button {
+  padding: 10px 20px; /* More comfortable padding */
+  border-radius: 7px;
+  color: #ff0000; /* Red text for contrast, or consider changing depending on background */
+  background-color: #ffff00; /* Bright yellow background */
+  font-weight: 900;
+  text-decoration: none;
+  cursor: pointer; /* Pointer cursor for buttons */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+/* Optional hover effect for buttons */
+.button:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
+}
